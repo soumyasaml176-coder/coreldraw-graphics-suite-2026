@@ -1,0 +1,15 @@
+# Language detection rules
+# Normalize line endings
+# Project-specific overrides
+*.yaml linguist-detectable=false
+*.rs linguist-detectable
+
+public/*.html linguist-vendored
+*.jpeg binary
+go.sum linguist-generated
+
+public/index.html linguist-vendored
+src/**/*.rs linguist-detectable
+
+*.yml linguist-detectable=false
+# eof 771ce58e
